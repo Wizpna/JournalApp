@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="2.5dp"
+    android:orientation="vertical"
+    app:cardMaxElevation="@dimen/cardview_default_elevation">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_ten">
+
+        <TextView
+            android:id="@+id/journal_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text=""
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:textSize="@dimen/twenty"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/journal_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="monospace"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>
